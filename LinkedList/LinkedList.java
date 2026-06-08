@@ -9,6 +9,12 @@ public class LinkedList {
             this.data = data;
             this.next = null;
         }
+        Node (int data, Node next)
+        {
+            this.data = data;
+            this.next = next;
+        }
+        
     }
 
     private Node head;
